@@ -30,7 +30,7 @@ CKEDITOR.editorConfig = function( config )
 
   // The location of a script that handles file uploads.
   config.filebrowserUploadUrl = "/ckeditor/attachment_files";
-
+  config.image_previewText = CKEDITOR.tools.repeat( '.', 1 );
   config.allowedContent = true;
   config.filebrowserUploadMethod = 'form';
 
